@@ -1,0 +1,165 @@
+
+.header-section{
+    width: 100%;
+    height: 820px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/images/Mountain.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    position: relative;
+}
+
+.header-content{
+    max-width: 360px;
+    width: 100%;
+    min-height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .name{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 26px;
+        color: white;
+        letter-spacing: 5px;
+    }
+
+    .name-text{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 26px;
+        color: #fff;
+        letter-spacing: 7px;
+        margin-bottom: 10%;
+    }
+}
+
+.input-content{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .input-box{
+        max-width: 600px;
+        width: 100%;
+        min-height: 65px;
+        text-align: center;
+        font-size: 14px;
+        font-family: 'Josefin Sans', sans-serif;
+        line-height: 26px;
+        letter-spacing: 3px;
+        font-weight: 400;
+    }
+
+    .search-btn{
+        width: 150px;
+        height: 65px;
+        color: white;
+        background-color: rgb(0, 137, 250);
+        font-family: 'Aleo', serif;
+        font-weight: 400;
+        line-height: 26px;
+        font-size: 14px;
+        letter-spacing: 2px;
+        border: none;
+        border-radius: 0 8px 8px 0;
+        transition: 0.5s ease-in-out;
+    }
+
+    .search-btn:hover{
+        background-color: rgba(0, 17, 255, 0.452);
+        transition: 0.5s ease-in-out;
+    }
+}
+
+.scroll{
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    width: 120px;
+    height: 30px;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 3px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5%;
+
+    .fa-angle-down{
+        font-size: 20px;
+    }
+}
+
+.nav-container{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(0, 137, 250);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    .nav-content{
+        width: 100%;
+        height: 80px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .logo-type{
+        width: 185px;
+        height: 30px;
+        color: white;
+        font-size: 24px;
+        line-height: 26px;
+        letter-spacing: 2.5px;
+        font-family: 'Josefin Sans', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-ul{
+        max-width: 550px;
+        width: 100%;
+        min-height: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+    }
+
+    a{
+        text-decoration: none;
+        color: white;
+    }
+
+    a:hover{
+        color: rgba(0, 17, 255, 0.705);
+        transition: 0.5s ease-in-out;
+    }
+
+    .nav-li{
+        width: 150px;
+        height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Aleo', serif;
+        font-weight: 400;
+    }
+}
