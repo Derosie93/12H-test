@@ -1,0 +1,76 @@
+
+.section-4-container{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: url(/images/Mountain-and-water.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .content-right{
+        width: 50%;
+        height: 700px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 7%;
+    }
+
+    .box-text-right{
+        max-width: 550px;
+        width: 100%;
+        min-height: 375px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        background-color: #232323ea;
+        padding: 25px;
+    }
+}
+
+.spain-1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    line-height: 26px;
+    color: #e8e8e8;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.madrid-1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    line-height: 26px;
+    color: #E8E8E8;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.info-text-spain-1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: #e8e8e8;
+    font-weight: 100;
+}
+
+.book-now-1-btn{
+    width: 200px;
+    height: 50px;
+    margin-top: 10%;
+    color: white;
+    background-color: rgb(0, 137, 250);
+    font-family: 'Aleo', serif;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 1.2px;
+    border: none;
+}
+
+.book-now-1-btn:hover{
+    background-color: rgba(0, 17, 255, 0.452);
+    transition: 0.5s ease-in-out;
+}
